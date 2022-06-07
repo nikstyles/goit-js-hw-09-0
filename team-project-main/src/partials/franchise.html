@@ -1,0 +1,52 @@
+<div class="backdrop is-hidden" data-fran>
+  <div class="modal contacts-modal--form">
+    <button type="button" class="modal-button-close" data-fran-close>
+      <svg width="28" height="28">
+        <use href="./images/icons.svg#icon-menu-close"></use>
+      </svg>
+    </button>
+    <form class="sign-form">
+      <b class="sign-form__header"
+        >Please fill out the form so that we can contact you to place an order</b
+      >
+      <label class="sign-form-label"
+        ><span class="sign-form-label__text">Name</span>
+        <input
+          class="sign-form-label__input"
+          type="text"
+          name="username"
+          placeholder="Jhon Smith"
+        />
+      </label>
+      <label class="sign-form-label"
+        ><span class="sign-form-label__text">Phone number</span>
+        <input
+          class="sign-form-label__input"
+          type="tel"
+          name="tel"
+          placeholder="+61 (0) 383 766 284"
+        />
+      </label>
+      <label class="sign-form-label"
+        ><span class="sign-form-label__text">E-mail</span>
+        <input class="sign-form-label__input" type="email" name="email" placeholder="E-mail" />
+      </label>
+      <label class="sign-form-label sign-form-label--coments"
+        ><span class="sign-form-label__text">Comments</span>
+        <textarea
+          class="sign-form-label__input sign-form-label__input--coments"
+          name="coments"
+          rows="6"
+          placeholder="Input your commnets"
+        ></textarea>
+      </label>
+      <label class="checkbox-label">
+        <input class="checkbox-label__input" type="checkbox" name="policy" value="reading" />
+        <span class="checkbox-label__icon"></span>
+        <span class="checkbox-label__text">I agree with the newsletter and accept</span>
+        <a class="checkbox-label__link" href="">Contract terms</a>
+      </label>
+      <button type="submit" class="btn btn--pink">Send</button>
+    </form>
+  </div>
+</div>
